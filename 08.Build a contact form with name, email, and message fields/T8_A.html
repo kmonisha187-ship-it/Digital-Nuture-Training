@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+        <style>
+            input{
+                width:50%;
+                padding:10px;
+                margin:10px;
+            }
+            form{
+                width:50%;
+                margin:auto;
+                background-color: beige;
+            }
+            input[type="text"]{
+                background-color: aqua;
+            }
+            input[type="email"]{
+                background-color: brown;
+            }
+            input[type="submit"]{
+                background-color:blue;
+            }
+            h2{
+                width:50%;
+                margin:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="msg">Message:</label><br>
+            <input type="text" id="msg" name="msg"><br>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>
